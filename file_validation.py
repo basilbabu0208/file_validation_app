@@ -3,6 +3,16 @@ import pandas as pd
 import emoji
 from streamlit_js_eval import streamlit_js_eval
 
+def me():
+      st.write("I'm here")
+def val():
+      st.write("Uploaded")
+if st.button("Click me"):
+      st.write("Clicked")
+      me()
+
+
+
 
 
 st.markdown("<h1 style='text-align: center;'>File Validation App</h1>", unsafe_allow_html=True)
@@ -26,13 +36,5 @@ if st.button("Home"):
    streamlit_js_eval(js_expressions = "parent.window.location.reload()")
 
 st.write("Here")
-def val():
-      st.write("Uploaded")
-if st.button("Click me"):
-      st.write("Clicked")
-      me()
 
-
-def me():
-      st.write("I'm here")
 
