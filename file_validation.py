@@ -28,4 +28,6 @@ if st.button("Home"):
 st.write("Here")
 def val(a,b):
       st.write("Uploaded")
+if st.button("Click me"):
+      st.write("Clicked")
 
