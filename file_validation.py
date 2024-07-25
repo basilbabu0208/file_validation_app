@@ -5,7 +5,7 @@ from streamlit_js_eval import streamlit_js_eval
 
 
 
-def val:(template, real_file):
+def val(template, real_file):
     st.write(pd.read_excel(template))
 
 
