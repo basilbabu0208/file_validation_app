@@ -2,3 +2,4 @@ streamlit
 emoji
 streamlit_js_eval
 pandas
+openpyxl
