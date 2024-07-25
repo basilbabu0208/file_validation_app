@@ -1,5 +1,6 @@
 import streamlit as st
 import validation 
+import testing
 import emoji
 from streamlit_js_eval import streamlit_js_eval
 
@@ -18,7 +19,8 @@ if st.button("Validate"):
       elif real_file is None:
            st.write("Please upload a valid real file.")
       elif template and real_file:
-           validation.val(template, real_file)
+           #validation.val(template, real_file)
+            testing.val(template, real_file)
            
 if st.button("Home"):
    # Reset session state and rerun the app
