@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import emoji
+import openpyxl'
 from streamlit_js_eval import streamlit_js_eval
 
 def val(template, real_file):
