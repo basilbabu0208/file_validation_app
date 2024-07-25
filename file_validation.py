@@ -16,7 +16,7 @@ def empty_row(real_file):
     if rows_with_all_empty_or_spaces is not None:
         row_indices_list = rows_with_all_empty_or_spaces.index.tolist()
         row_indices_str = ','.join(map(str, row_indices_list))
-        st.write( "empty" + row_indices_str = '')
+        st.write( "empty" + row_indices_str == '')
 
 st.markdown("<h1 style='text-align: center;'>File Validation App</h1>", unsafe_allow_html=True)
 
