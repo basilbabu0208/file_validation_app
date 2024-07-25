@@ -17,7 +17,7 @@ if st.button("Validate"):
       elif real_file is None:
            st.write("Please upload a valid real file.")
       elif (template and real_file) is not None:
-           val(template, real_file)
+           val()
            
 if st.button("Home"):
    # Reset session state and rerun the app
@@ -26,7 +26,7 @@ if st.button("Home"):
    streamlit_js_eval(js_expressions = "parent.window.location.reload()")
 
 st.write("Here")
-def val(a,b):
+def val():
       st.write("Uploaded")
 if st.button("Click me"):
       st.write("Clicked")
