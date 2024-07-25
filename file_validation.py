@@ -119,7 +119,7 @@ def val(template , real_file):
         st.write('Column Issues :')
         st.write(validated_df)
 
-    if  empty_rws is not None and empty_rws <> '':
+    if  empty_rws is not None and empty_rws != '':
         st.write( 'Empty or NULL row found at: '+empty_rws)
 
     if file_name_result is None and validated_df is  None and (empty_rws is None or empty_rws == ''):
