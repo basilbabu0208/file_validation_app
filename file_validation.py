@@ -30,4 +30,9 @@ def val():
       st.write("Uploaded")
 if st.button("Click me"):
       st.write("Clicked")
+      me()
+
+
+def me():
+      st.write("I'm here")
 
