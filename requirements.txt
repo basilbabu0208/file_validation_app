@@ -1,1 +1,5 @@
 streamlit
+validation 
+emoji
+streamlit_js_eval
+pandas
