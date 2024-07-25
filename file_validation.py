@@ -16,7 +16,7 @@ if st.button("Validate"):
            st.write("Please upload a valid template file.")
       elif real_file is None:
            st.write("Please upload a valid real file.")
-      elif template and real_file:
+      elif (template and real_file) is not None:
            val(template, real_file)
            
 if st.button("Home"):
