@@ -122,7 +122,7 @@ def val(template , real_file):
     if  empty_rws is not None:
         st.write( 'Empty or NULL row found at: '+empty_rws)
 
-    if file_name_result is None and validated_df is  None and empty_rws.empty:
+    if file_name_result is None and validated_df is  None and empty_rws is None:
         st.write("File Format Matching.")
 
 
