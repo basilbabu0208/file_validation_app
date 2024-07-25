@@ -25,7 +25,7 @@ if st.button("Home"):
    #validation.reset_app()
    streamlit_js_eval(js_expressions = "parent.window.location.reload()")
 
-
+st.write("Here")
 def val(a,b):
       st.write("Uploaded")
 
